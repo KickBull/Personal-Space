@@ -5,7 +5,8 @@ def spacify(inp: str):
     Example:
     
     input: 4- (3 /2)*-16
-    output: 4 - (3 / 2) * -16"""
+    output: 4 - (3 / 2) * -16
+    """
 
     buffer = ""
     operators = ["+", "-", "*", "/"]
