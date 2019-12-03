@@ -9,7 +9,7 @@ def spacify(inp: str):
     """
 
     buffer = ""
-    operators = ["+", "-", "*", "/"]
+    operators = ["+", "-", "*", "/", "^"]
     final = ""
 
     for char in list(inp):
