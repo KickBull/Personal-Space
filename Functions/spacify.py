@@ -11,7 +11,7 @@ def spacify(inp: str):
     operators = ["+", "-", "*", "/"]
     final = ""
 
-    for char in list(inp.strip("`")):
+    for char in list(inp):
         if not len(buffer+char) >= 3:
             buffer+=char
         elif len(buffer+char) >= 3:
