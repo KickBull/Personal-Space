@@ -4,8 +4,8 @@ def spacify(inp: str):
     """Mathematical equation space fixer.
     Example:
     
-    input: 4- (3 /2)*-16
-    output: 4 - (3 / 2) * -16
+    input: 4- (3 /2)*-16^ 12 -1*(+13)
+    output: 4 - (3 / 2) * -16^12 - 1 * (+13)
     """
 
     buffer = ""
