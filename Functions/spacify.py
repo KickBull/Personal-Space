@@ -15,7 +15,7 @@ def spacify(inp: str):
     for char in list(inp):
         if not len(buffer + char) >= 3:
             buffer += char
-        elif len(buffer+char) >= 3:
+        elif len(buffer + char) >= 3:
             buffer = buffer[1]
             buffer += char
 
@@ -28,7 +28,7 @@ def spacify(inp: str):
             elif buffer[1] == " ":
                 final = final
             else:
-                final = final + buffer[1]
+                final += buffer[1]
         else:
             final = buffer[0]
 
