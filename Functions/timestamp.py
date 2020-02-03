@@ -5,7 +5,7 @@ def timestamp(time: datetime, extra_seconds: int = 0, format="hour:minute am_or_
     """Makes a datetime object prettier.
 
     time: datetime object to convert to a pretty timestamp.
-    extra_seconds: seconds to add to the date. (default: 0)[optinal]
+    extra_seconds: seconds to add to the date. (default: 0)[optional]
     format: the format in which to return the prettified date. (default: "hour:minute am_or_pm, month day")[optional]
 
     supported format parts:
