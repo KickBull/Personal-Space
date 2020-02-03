@@ -19,8 +19,10 @@ def timestamp(time: datetime, extra_seconds: int = 0, format="hour:minute am_or_
     Basically those keywords get replaced with the actual day/month/year/etc
 
     Examples:
-    "hour:minute am_or_pm, month day" -> 11:25 AM, February 3rd
-    "year, month day" -> 2020, February"""
+    "hour:minute am_or_pm, month day" -> "11:25 AM, February 3rd"
+    "year, month day" -> "2020, February 3rd"
+    "Today it's the day of month" -> "Today it's the 3rd of February"
+    """
 
     # adding the extra seconds
     dummydate = datetime.datetime(year=100, month=time.month, day=time.day, hour=time.hour, minute=time.minute)
