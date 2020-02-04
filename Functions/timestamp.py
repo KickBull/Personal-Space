@@ -54,10 +54,13 @@ def timestamp(time: datetime, extra_seconds: int = 0, format="hour:minute am_or_
     ordinal_ends = {
                     1: "st",
                     2: "nd",
-                    3: "rd"
+                    3: "rd",
+                    11: "th"
     }
 
-    if int(str(day)[-1]) <= 3:
+    if day in (11, 12, 13):
+        ordinal_end = "th"
+    elif int(str(day)[-1]) <= 3:
         ordinal_end = ordinal_ends[int(str(day)[-1])]
     else:
         ordinal_end = "th"
