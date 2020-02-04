@@ -55,7 +55,6 @@ def timestamp(time: datetime, extra_seconds: int = 0, format="hour:minute am_or_
                     1: "st",
                     2: "nd",
                     3: "rd",
-                    11: "th"
     }
 
     if day in (11, 12, 13):
