@@ -21,7 +21,7 @@ def timestamp(time: datetime, extra_seconds: int = 0, format="hour:minute am_or_
     Examples:
     "hour:minute am_or_pm, month day" -> "11:25 AM, February 3rd"
     "year, month day" -> "2020, February 3rd"
-    "Today it's the day of month" -> "Today it's the 3rd of February"
+    "It's the day of month right now" -> "It's the 3rd of February right now"
     """
 
     # adding the extra seconds
